@@ -153,7 +153,6 @@
 				F18A4E23AF55052869F0A8F0D981C028 /* Pods-TLPhotoPicker_Example-umbrella.h */,
 				6C0A1A588AF933C36C60CB59F124C442 /* Pods-TLPhotoPicker_Example.debug.xcconfig */,
 				4D549D26905483DBDCB34D207C038454 /* Pods-TLPhotoPicker_Example.release.xcconfig */,
-				98B3600C286ECE9F00DCF4C8 /* Pods-TLPhotoPicker_Example-Info.plist */,
 			);
 			name = "Pods-TLPhotoPicker_Example";
 			path = "Target Support Files/Pods-TLPhotoPicker_Example";
