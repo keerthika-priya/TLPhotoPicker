@@ -20,7 +20,6 @@
 		697CABB635656635F3F39C0369DD667D /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3246579939DA1C528B4EBAC852B7996 /* TLPhotosPickerViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		85D95FEBA03B38AE32ED7073D314AA44 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B823B635C4D527B1890D893DBBB31D1 /* TLCollectionTableViewCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		935EA49646A008C502813A0F8E9133AF /* TLPhotosPickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C06AFC81FB0762B80E232843B2329C50 /* TLPhotosPickerViewController.xib */; };
-		98B3600E286EFDE200DCF4C8 /* TLPhotoPicker.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 98B3600D286EFDE200DCF4C8 /* TLPhotoPicker.release.xcconfig */; };
 		98C86C3C329F256C5D9674D6F5F0745E /* TLCollectionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = FAF638D8191CA448BDC143CC2616612E /* TLCollectionTableViewCell.xib */; };
 		C3CD7D4CC8F97BA43DBABBF9875638D0 /* TLPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 390358D4CE2312B940C09A896EBEA7A4 /* TLPhotoCollectionViewCell.xib */; };
 		E33D12FCBCB61CDA0EA6FBA0FDD19DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -79,7 +78,7 @@
 		98B3600B286ECB6D00DCF4C8 /* TLPhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.debug.xcconfig; sourceTree = "<group>"; };
 		98B3600C286ECE9F00DCF4C8 /* Pods-TLPhotoPicker_Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pods-TLPhotoPicker_Example-Info.plist"; sourceTree = "<group>"; };
 		98B3600D286EFDE200DCF4C8 /* TLPhotoPicker.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.release.xcconfig; sourceTree = "<group>"; };
-		97D6A7784BD0A7B85273B4F018814511 /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D6A7784BD0A7B85273B4F018814511 /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; }; release change)
 		A4351F0C1CAA7F242616792C3BAACCC4 /* Pods-TLPhotoPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLPhotoPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AE61FCEDF25B2A46ECB42AD67045E112 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
 		AF0BA59ACFDE5B9FEAEE4D59DFF70532 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
@@ -246,7 +245,6 @@
 			children = (
 				57A0799E80FC73E458342E9E022B7655 /* Pods-TLPhotoPicker_Example */,
 				98B3600B286ECB6D00DCF4C8 /* TLPhotoPicker.debug.xcconfig */,
-				98B3600D286EFDE200DCF4C8 /* TLPhotoPicker.release.xcconfig */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -372,7 +370,6 @@
 			files = (
 				0FB0ED624A638D659BB04CD99818D882 /* TLPhotoPicker.bundle in Resources */,
 				24FF1ACAE71C4474008C70B84DB2217A /* TLPhotoPickerController.bundle in Resources */,
-				98B3600E286EFDE200DCF4C8 /* TLPhotoPicker.release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
