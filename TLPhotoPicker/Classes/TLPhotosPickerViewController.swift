@@ -231,6 +231,8 @@ open class TLPhotosPickerViewController: UIViewController {
         if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
                 layout.minimumInteritemSpacing = 1
                 layout.minimumLineSpacing = 1
+                //Subtracting 2 from the overall width to account for the spacing between items
+                //(1 point on each side) in the 3-column layout.
                 let width = (collectionView.frame.width - 2) / 3
                 layout.itemSize = CGSize(width: width, height: width)
         }
