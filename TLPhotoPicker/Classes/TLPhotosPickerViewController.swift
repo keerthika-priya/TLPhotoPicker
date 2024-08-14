@@ -228,6 +228,12 @@ open class TLPhotosPickerViewController: UIViewController {
     
     override open func viewDidLoad() {
         super.viewDidLoad()
+        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+                layout.minimumInteritemSpacing = 1
+                layout.minimumLineSpacing = 1
+                let width = (collectionView.frame.width - 2) / 3
+                layout.itemSize = CGSize(width: width, height: width)
+        }
         makeUI()
         checkAuthorization()
     }
